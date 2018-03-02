@@ -1,0 +1,222 @@
+body{
+	overflow: auto;
+	font-family: "黑体";
+}
+#top{
+	position: fixed;
+	top: 0px;
+	height: 50px;
+	width: 100%;
+	background-color: black;
+}
+.top1{
+	margin-left: 100px;
+	height: auto;
+	width: 100%;
+}
+.top1 li{
+	background-color: black;
+	float: left;
+	height: 50px;
+	width: 110px;
+	text-align: center;
+}
+.top1 li:nth-child(n+2):hover{
+	background-color: gray;
+}
+
+#body{
+	height: auto;
+	width: auto;
+}
+.row1{
+	text-align: center;
+	width: 100%;
+	padding-top: 100px;	
+}
+.row1 strong{
+	height: 60px;
+	display: block;
+	margin-top:20px;
+	color: white;
+	font-size: 40px;
+	font-weight: bolder;
+}
+.row img{
+	display: block;
+	margin: 0 auto;
+	vertical-align: middle;
+	text-align: center;
+}
+.row1{
+	background: url(../img/Apple_cn/three_minutes_large.jpg) no-repeat;
+	background-position-x: -600px;
+	cursor: pointer;
+}
+.row2{
+	text-align: center;
+	background:white;
+	padding-top: 60px;
+	cursor: pointer;
+}
+.row2 img{
+	padding-top: 100px;
+}
+.row2 .p1,.row3 .p1{
+	height: 60px;
+	display: block;
+	color: black;
+	font-size: 50px;
+	font-weight: bolder;
+}
+.row2 .p2,.row3 .p2{
+	height: 40px;
+	display: block;
+	color: black;
+	font-size: 25px;
+	font-weight:300;
+}
+.row3{
+	text-align: center;
+	padding-top: 65px;
+	background: #F9F0EB;
+	cursor: pointer;
+}	
+.row3 img{
+	padding-top: 74px;
+}
+
+.row4,.row5,.row6{
+	position: relative;
+	text-align: center;
+}
+.row4 .row_half_1,.row4 .row_half_2,.row5 .row_half_1,.row5 .row_half_2{
+	position: absolute;
+	text-align: center;
+	padding-top: 60px;
+	display: inline-block;
+	cursor: pointer;
+}
+.row6 .row_half_1,.row6 .row_half_2{
+	position: absolute;
+	text-align: center;
+	padding-top: 60px;
+	display: inline-block;
+	background: #FAFAFA;
+	cursor: pointer;
+}
+.row5 .row_half_1{
+	top: 570px;
+	left: 20px;
+	background: url(../img/Apple_cn/ipad_pro_film_large.jpg) no-repeat;
+	background-position-x: -300px;
+	background-position-y: -30px;
+}
+.row6 .row_half_2{
+	top: 1140px;
+	right: 20px;
+	
+}
+.row6 .row_half_1{
+	top: 1140px;
+	left: 20px;
+}
+.row5 .row_half_2{
+	top: 570px;
+	right: 20px;
+	background: url(../img/Apple_cn/imac_pro_large.jpg) no-repeat;
+}
+.row4 .row_half_1{
+	top: 10px;
+	left: 20px;
+	background: url(../img/Apple_cn/music_three_months_large.jpg) no-repeat;
+	background-position-x: -300px;
+	background-position-y: -30px;
+}
+.row4 .row_half_2{
+	top: 10px;
+	right: 20px;
+	background: url(../img/Apple_cn/today_at_apple_large.jpg) no-repeat;
+	background-position-x: -300px;
+	background-position-y: -30px;
+}
+.row4 .row_half_1 img{
+	display: block;
+	margin: 0 auto;
+}
+.row4 .row_half_1 strong{
+	margin-top: 20px;
+	display: block;
+	color: white;
+	font-size: 18px;
+	font-weight:300;
+}
+.row4 .row_half_2 .p1,.row5 .row_half_2 .p1,.row5 .row_half_1 .p1,.row6 .row_half_2 .p1{
+	display: block;
+	font-size: 36px;
+	font-weight:300;
+}
+.row4 .row_half_2 .p2,.row5 .row_half_2 .p2,.row5 .row_half_1 .p2,.row6 .row_half_2 .p2{
+	margin-top: 20px;
+	display: block;
+	font-size: 16px;
+	font-weight:300;
+}
+.row4 .row_half_2 .p1,.row5 .row_half_2 .p1,.row5 .row_half_1 .p1{
+	color: white;
+}
+.row4 .row_half_2 .p2,.row5 .row_half_2 .p2,.row5 .row_half_1 .p2{
+	color: white;
+}
+.row6 .row_half_2 .p1{
+	color: black;
+}
+.row6 .row_half_2 .p2{
+	color: black;
+}
+.row6 .row_half_2 img,.row6 .row_half_1 img:nth-of-type(2){
+	padding-top: 50px;
+}
+.row6 .row_half_1 strong{
+	margin-top: 10px;
+	display: block;
+	color: black;
+	font-size: 18px;
+	font-weight:300;
+}
+
+/*footer*/
+#footer{
+	position: relative;
+	width: 100%;
+	height: 300px;
+	text-align: left;
+	padding-top: 50px;
+	padding-left: 200px;
+	
+}
+#footer ul{
+	position: relative;
+	top: 1740px;
+	font-size: 1em;
+	display: inline-block;
+	width: 200px;
+	vertical-align: top;
+	background: white;
+	padding-top: 10px;
+}
+#footer a{
+	color: gray;
+}
+#footer ul:last-child{
+	color: #888888;
+	width: 900px;
+	text-align: left;
+}
+#footer ul:last-child a{
+	color: #0070CB;
+}
+#footer ul:last-child li:first-child{
+	border-bottom:1px solid gainsboro;
+	
+}
