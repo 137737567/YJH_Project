@@ -1,5 +1,5 @@
 body{
-	overflow: auto;
+	overflow-y: auto;
 	font-family: "黑体";
 }
 #top{
